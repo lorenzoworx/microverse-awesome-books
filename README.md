@@ -1,36 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="images/awesome_books.PNG" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awesome Books</b></h3>
 
 </div>
 
@@ -44,8 +18,8 @@ After you're finished please remove all the comments and instructions!
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -60,26 +34,24 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# Emerging Tech Conference Page <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> A website for storing and retrieving books
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
@@ -91,17 +63,15 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Functions for adding and removing books
+- Persistence of data in the browser
+- A miniature GUI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +79,10 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+<!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://preciousbetine.github.io/microverse-awesome-books)
+<!-- - No Live Demo yet -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,13 +90,12 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+<!-- > Describe how a new developer could make use of your project. -->
 
 ### Prerequisites
 
 In order to run this project you need:
+- A web browser
 
 <!--
 Example command:
@@ -139,43 +109,40 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+cd my-folder
+git clone https://github.com/preciousbetine/microverse-awesome-books.git
 ```
---->
+
 
 ### Install
 
-Install this project with:
+No Installation required!
 
-<!--
-Example command:
+
+<!-- Example command:
 
 ```sh
   cd my-project
   gem install
 ```
---->
+- -->
 
 ### Usage
 
-To run the project, execute the following command:
-
+To run the project:
+- Run the html file in a web browser.
 <!--
 Example command:
 
 ```sh
   rails server
 ```
---->
+-
 
 ### Run tests
 
-To run tests, run the following command:
+There are no tests available to run.
 
 <!--
 Example command:
@@ -185,9 +152,8 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+  This website is live at [this link](https://preciousbetine.github.io/microverse-awesome-books)
 
 <!--
 Example:
@@ -203,19 +169,17 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Precious Betine**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@preciousbetine](https://github.com/preciousbetine)
+- Twitter: [@preciousbetine](https://twitter.com/preciousbetine)
+- LinkedIn: [preciousbetine](https://linkedin.com/in/preciousbetine)
 
-👤 **Author2**
+👤 **Besu Alemu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Besu Alemu](https://github.com/besufekad-haz)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +187,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+<!-- > Describe 1 - 3 features you will add to the project. -->
+<!-- None for now 🙂 -->
+- [ ] **Full site with nav bar**
+<!-- - [ ] **More pages** -->
+<!-- - [ ] **[new_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +209,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+<!-- > Write a message to encourage readers to support your project -->
 
-If you like this project...
+If you like this project, give it a ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +219,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+<!-- > Give credit to everyone who inspired your codebase. -->
+No acknowledgements 😄
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +228,17 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+<!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
 
-- **[Question_1]**
+- No FAQ
+
+<!-- - **[Question_1]**
 
   - [Answer_1]
 
 - **[Question_2]**
 
-  - [Answer_2]
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -283,6 +248,6 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
