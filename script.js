@@ -18,13 +18,12 @@ function showBooks() {
       <div class="book">
         <h3>${book.title}</h3>
         <p>${book.author}</p>
-        <button>Remove</button>
+        <button onClick="removeBook(${book.id})">Remove</button>
       </div>
     `;
   });
   const booksContainer = document.querySelector('#books_container');
   booksContainer.innerHTML = booksHTML;
-  booksContainer.focus();
 }
 
 showBooks();
