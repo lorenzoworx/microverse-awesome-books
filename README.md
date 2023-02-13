@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="images/awesome_books.PNG" alt="logo" width="140"  height="auto" />
+  <img src="images/awesome_books.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Awesome Books</b></h3>
@@ -36,7 +36,7 @@
 
 # Emerging Tech Conference Page <a name="about-project"></a>
 
-> A website for storing and retrieving books
+A website for storing and retrieving books
 
 ## 🛠 Built With <a name="built-with"></a>
 
