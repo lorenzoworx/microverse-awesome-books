@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Emerging Tech Conference Page <a name="about-project"></a>
+# Awesome Books <a name="about-project"></a>
 
 A website for storing and retrieving books
 
