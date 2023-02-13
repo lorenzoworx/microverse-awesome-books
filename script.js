@@ -1,25 +1,14 @@
-const books = [
-  {
-    title: 'Hello',
-    author: 'Precious'
-  },
-  {
-    title: 'Hello',
-    author: 'Precious'
-  },
-  {
-    title: 'Hello',
-    author: 'Precious'
-  },
-];
+const books = [];
 
 function addBook(title, author) {
   books.push({ id: books.length, title, author });
+  showBooks();
 }
 
 function removeBook(bookId) {
   const bookIndex = books.findIndex((book) => book && book.id == bookId);
   delete books[bookIndex];
+  showBooks();
 }
 
 function showBooks() {
@@ -35,6 +24,16 @@ function showBooks() {
   });
   const booksContainer = document.querySelector('#books_container');
   booksContainer.innerHTML = booksHTML;
+  booksContainer.focus();
 }
 
 showBooks();
+
+document.querySelector('#add_new_book_btn').addEventListener('click', (e) => {
+  e.preventDefault();
+  const addBookForm = document.forms['add_book_form'];
+  const bookTitle = addBookForm.elements.bookTitleInput.value;
+  const bookAuthor = addBookForm.elements.bookAuthorInput.value;
+  addBook(bookTitle, bookAuthor);
+  addBookForm.reset();
+});
