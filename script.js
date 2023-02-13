@@ -16,7 +16,8 @@ function showBooks() {
 }
 
 function addBook(title, author) {
-  books.push({ id: books.length, title, author });
+  const id = Math.round(Math.random() * 10000);
+  books.push({ id, title, author });
   localStorage.setItem('books', JSON.stringify(books));
   showBooks();
 }
