@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="images/awesome_books.jpg" alt="logo" width="140"  height="auto" />
+  <img src="images/awesome_books.jpg" alt="logo" width="140"  height="auto" style="border-radius:30px;" />
   <br/>
 
   <h3><b>Awesome Books</b></h3>
