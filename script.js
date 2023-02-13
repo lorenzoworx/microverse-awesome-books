@@ -1,13 +1,15 @@
-const books = [];
+let books = [];
 
 function addBook(title, author) {
   books.push({ id: books.length, title, author });
+  localStorage.setItem('books', JSON.stringify(books));
   showBooks();
 }
 
 function removeBook(bookId) {
   const bookIndex = books.findIndex((book) => book && book.id == bookId);
-  delete books[bookIndex];
+  books.splice(bookIndex, 1);
+  localStorage.setItem('books', JSON.stringify(books));
   showBooks();
 }
 
@@ -15,10 +17,10 @@ function showBooks() {
   let booksHTML = '';
   books.forEach((book) => {
     booksHTML += `
-      <div class="book">
+      <div class='book'>
         <h3>${book.title}</h3>
         <p>${book.author}</p>
-        <button onClick="removeBook(${book.id})">Remove</button>
+        <button onClick='removeBook(${book.id})'>Remove</button>
       </div>
     `;
   });
@@ -26,6 +28,7 @@ function showBooks() {
   booksContainer.innerHTML = booksHTML;
 }
 
+books = JSON.parse(localStorage.getItem('books')) || [];
 showBooks();
 
 document.querySelector('#add_new_book_btn').addEventListener('click', (e) => {
